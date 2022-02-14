@@ -11,11 +11,24 @@ const typeDefs = gql`
         terminal:String!        
     }
 
+    type Chofer{
+        id:ID!
+        name:String!
+        experience_time:Int!
+        shift:String!
+    }
+
+    
+
+    
+
     
 
     type Query{
         guaguas:[Guagua!]!
         guagua(id:ID!):Guagua!
+        choferes:[Chofer!]!
+        chofer(id:ID!):Chofer!
         
     }
 

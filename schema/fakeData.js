@@ -60,10 +60,60 @@ const GuaguasList = [
         ],
         terminal:"10 de octubre"   
         
-    }
-     
+    }     
 ];
 
+const ChoferList = [
+    {
+        id:1,
+        name:"José G Martínez",
+        experience_time:5,
+        shift:"diurno",        
+    },
+    {
+        id:2,
+        name:"Irán Suárez",
+        experience_time:15,
+        shift:"nocturno",        
+    },
+    {
+        id:3,
+        name:"Armando P Calderón",
+        experience_time:7,
+        shift:"diurno",        
+    },
+    {
+        id:4,
+        name:"Eloy Duarte",
+        experience_time:25,
+        shift:"nocturno",        
+    },
+    {
+        id:5,
+        name:"Eriberto Medina",
+        experience_time:10,
+        shift:"diurno",        
+    },
+    {
+        id:6,
+        name:"Josefa Hernádez",
+        experience_time:5,
+        shift:"nocturno",        
+    },
+    {
+        id:7,
+        name:"José G Wenseslao",
+        experience_time:15,
+        shift:"diurno",        
+    },
+    {
+        id:8,
+        name:"Antonio Inmaculado",
+        experience_time:15,
+        shift:"nocturno",        
+    },
+]
 
 
-module.exports = {GuaguasList};
+
+module.exports = {GuaguasList, ChoferList};
