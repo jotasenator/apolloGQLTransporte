@@ -1,37 +1,25 @@
 const {gql} = require("apollo-server");
 
 const typeDefs = gql`
-    type User{
+    type Guagua{
         id:ID!
-        name:String!
-        username:String!
-        age:Int!
-        nationality:Nationality!   
-        friends:[User]
-        favoriteMovies:[Movie] 
+        number:Int!
+        brand:String!
+        capacity:Int!
+        drivers:[String!]!
+        terminal:String!
+        
     }
 
-    type Movie{
-        id:ID!
-        name:String!
-        yearOfPublication:Int!
-        isInTheaters:Boolean!    
-    }
+    
 
     type Query{
-        users:[User!]!
-        user(id:ID!):User!
-        movies:[Movie!]!
-        movie(name:String!):Movie!
+        guaguas:[Guagua!]!
+        guagua(id:ID!):Guagua!
+        
     }
 
-    enum Nationality{
-        CANADA
-        BRAZIL
-        USA
-        GERMANY
-        CHILE
-    }
+   
  `;
 
  module.exports = {typeDefs};

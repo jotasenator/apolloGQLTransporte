@@ -1,116 +1,64 @@
-const UserList = [
+const GuaguasList = [
     {
         id:1,
-        name:"Jhon",
-        username:"jhon",
-        age:20,
-        nationality:"CANADA",
-        friends:[
-            {
-                id:2,
-                name:"Pedro",
-                username:"PedroTech",
-                age:20,
-                nationality:"BRAZIL"
-            }
-        ]
+        number:125,
+        brand:"Girón",
+        capacity:100,
+        drivers:[
+            "José G Martínez",
+            "Irán Suárez"
+        ],
+        terminal:"10 de octubre"        
     },
     {
         id:2,
-        name:"Pedro",
-        username:"PedroTech",
-        age:20,
-        nationality:"BRAZIL",
-        friends:[
-            {
-                id:1,
-                name:"Jhon",
-                username:"jhon",
-                age:20,
-                nationality:"CANADA",
-            }
-        ]
+        number:1028,
+        brand:"Mercedez Benz",
+        capacity:300,
+        drivers:[
+            "Armando P Calderón",
+            "Eloy Duarte"
+        ],
+        terminal:"San Agustín" 
     },
     {
         id:3,
-        name:"Sarah",
-        username:"cameron",
-        age:25,
-        nationality:"USA",
-        friends:[
-            {
-                id:2,
-                name:"Pedro",
-                username:"PedroTech",
-                age:20,
-                nationality:"BRAZIL"
-            },
-            {
-                id:5,
-                name:"Kelly",
-                username:"kelly2019",
-                age:5,
-                nationality:"CHILE"
-            }
-
-        ]
+        number:1215,
+        brand:"Girón",
+        capacity:100,
+        drivers:[
+            "Eriberto Medina",
+            "Josefa Hernádez"        
+        ],
+        terminal:"Alamar"         
     },
     {
         id:4,
-        name:"Rafe",
-        username:"rafe123",
-        age:60,
-        nationality:"GERMANY",
-        friends:[{
-            id:5,
-        name:"Kelly",
-        username:"kelly2019",
-        age:5,
-        nationality:"CHILE"
-        }]
+        number:4225,
+        brand:"Ikarus",
+        capacity:210,
+        drivers:[
+            "José G Wenseslao",
+            "Antonio Inmaculado"
+        ],
+        terminal:"Plaza de la Revolución"   
+        
     },
     {
         id:5,
-        name:"Kelly",
-        username:"kelly2019",
-        age:5,
-        nationality:"CHILE",
-        friends:[{
-            id:4,
-            name:"Rafe",
-            username:"rafe123",
-            age:60,
-            nationality:"GERMANY"
-        }]
+        number:25,
+        brand:"Girón",
+        capacity:100,
+        drivers:[
+            "José G Martínez",
+            "Irán Suárez"
+        ],
+        terminal:"10 de octubre"   
+        
     }
      
 ];
 
-const MovieList = [
-    {
-        id:1,
-        name:"movie1",
-        yearOfPublication:2019,
-        isInTheaters:true,
-    },
-    {
-        id:2,
-        name:"movie2",
-        yearOfPublication:2009,
-        isInTheaters:true,
-    },
-    {
-        id:3,
-        name:"movie3",
-        yearOfPublication:1981,
-        isInTheaters:true,
-    },
-    {
-        id:4,
-        name:"movie4",
-        yearOfPublication:2029,
-        isInTheaters:false,
-    },
-]
 
-module.exports = {UserList, MovieList};
+
+module.exports = {GuaguasList};
