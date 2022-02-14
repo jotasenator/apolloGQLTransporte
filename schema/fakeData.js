@@ -114,6 +114,33 @@ const ChoferList = [
     },
 ]
 
+const TerminalesList = [
+    {
+        id:1,
+        name:"La Esperanza",
+        place:"10 de octubre",
+        capacity:500
+    },
+    {
+        id:2,
+        name:"Bellezura",
+        place:"San Agustín",
+        capacity:500
+    },
+    {
+        id:3,
+        name:"La Victoriosa",
+        place:"Alamar",
+        capacity:500
+    },
+    {
+        id:4,
+        name:"Más con Menos",
+        place:"Plaza de la Revolución",
+        capacity:500
+    },
+]
 
 
-module.exports = {GuaguasList, ChoferList};
+
+module.exports = {GuaguasList, ChoferList, TerminalesList};

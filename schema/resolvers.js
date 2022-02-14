@@ -1,4 +1,4 @@
-const { GuaguasList, ChoferList} = require("./fakeData")
+const { GuaguasList, ChoferList, TerminalesList} = require("./fakeData")
 const _ = require("lodash")
 
 
@@ -19,7 +19,15 @@ const resolvers = {
         chofer:(parent,args)=>{
             const id = args.id;
             const chofer = _.find(ChoferList,{id:Number(id)});
-            return chofer
+            return chofer;
+        },
+        terminales:()=>{
+            return TerminalesList;
+        },
+        terminal:(parent,args)=>{
+            const id = args.id;
+            const terminal = _.find(TerminalesList,{id:Number(id)});
+            return terminal;
         },
      
     },

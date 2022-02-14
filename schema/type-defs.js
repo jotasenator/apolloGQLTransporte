@@ -18,7 +18,12 @@ const typeDefs = gql`
         shift:String!
     }
 
-    
+    type Terminal{
+        id:ID!
+        name:String!
+        place:String!
+        capacity:Int!
+    }
 
     
 
@@ -29,6 +34,8 @@ const typeDefs = gql`
         guagua(id:ID!):Guagua!
         choferes:[Chofer!]!
         chofer(id:ID!):Chofer!
+        terminales:[Terminal!]!
+        terminal(id:ID!):Terminal!
         
     }
 
