@@ -5,10 +5,10 @@ const typeDefs = gql`
         id:ID!
         number:Int!
         brand:String!
+        model:String!
         capacity:Int!
         drivers:[String!]!
-        terminal:String!
-        
+        terminal:String!        
     }
 
     
